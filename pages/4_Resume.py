@@ -6,13 +6,13 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
         
-#local_css("portfolio-template-LLM/style/style.css")
+local_css("style/style.css/")
 
 
 
 st.title("📝 Resume")
 
-pdf_path = r"C:\Users\simpl\Downloads\test\images\Sowjanya_AI_resume.pdf"
+pdf_path = "Sowjanya_AI_resume.pdf"
 
 # Provide a download button for the PDF
 with open(pdf_path, "rb") as pdf_file:

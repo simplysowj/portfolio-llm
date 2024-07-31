@@ -6,14 +6,14 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
         
-local_css(r"C:\Users\simpl\Downloads\test\style\style.css")
+local_css("style/style.css")
 
 
 
 
-img_1 = Image.open("portfolio-template-LLM/images/1.jpg")
-img_2 = Image.open("portfolio-template-LLM/images/2.png")
-img_3 = Image.open("portfolio-template-LLM/images/3.png")
+img_1 = Image.open("images/1.jpg")
+img_2 = Image.open("images/2.png")
+img_3 = Image.open("images/3.png")
 
 st.title("🫶 Hobbies")
 

@@ -14,15 +14,7 @@ st.title("📝 Resume")
 
 pdf_path = "images/Sowjanya_AI_resume.pdf"
 
-# Provide a download button for the PDF
-with open(pdf_path, "rb") as pdf_file:
-    pdf_bytes = pdf_file.read()
-    st.download_button(
-        label="Download Resume as PDF",
-        data=pdf_bytes,
-        file_name="Sowjanya_Data_science_latest_resume.pdf",
-        mime="application/pdf"
-    )
+
 
 # Inform users about the download button
 st.markdown(

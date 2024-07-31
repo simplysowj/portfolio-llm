@@ -130,7 +130,7 @@ def get_qa_answer(query):
     try:
         result = qa_chain({"query": query, "prompt": prompt})
         
-        if "I don't" in result.get("result", ""):
+        if "I do" in result.get("result", ""):
 
             result["result"] = f"Unfortunately, I couldn't find specific information on that topic. For more details or further assistance, please feel free to contact {name} directly at [simplysowj@gmai.com](mailto:simplysowj@gmai.com)."
         

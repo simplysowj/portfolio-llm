@@ -12,7 +12,7 @@ local_css("style/style.css/")
 
 st.title("📝 Resume")
 
-pdf_path = "Sowjanya_AI_resume.pdf"
+pdf_path = "images/Sowjanya_AI_resume.pdf"
 
 # Provide a download button for the PDF
 with open(pdf_path, "rb") as pdf_file:
@@ -32,7 +32,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-with open(r"C:\Users\simpl\Downloads\test\images\Sowjanya_AI_resume.pdf","rb") as f:
+with open("images/Sowjanya_AI_resume.pdf","rb") as f:
       base64_pdf = base64.b64encode(f.read()).decode('utf-8')
       pdf_display = F'<iframe src="data:application/pdf;base64,{base64_pdf}" width="1000mm" height="1000mm" type="application/pdf"></iframe>'
       st.markdown(pdf_display, unsafe_allow_html=True)

@@ -128,6 +128,7 @@ def get_qa_answer(query):
 
     # Get the answer
     result = qa_chain({"query": query, "prompt": prompt})
+    st.write("Debug Info:", result)
     if not result.get("result"):
         result["result"] = f"Unfortunately, I couldn't find specific information on that topic. For more details or further assistance, please feel free to contact Sowjanya directly at [simplysowj@gmai.com](mailto:simplysowj@gmai.com)."
     return result

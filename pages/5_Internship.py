@@ -11,11 +11,11 @@ local_css("style/style.css")
 
 
 
-img_1 = Image.open("portfolio-template-LLM/images/i1.png")
-img_2 = Image.open("portfolio-template-LLM/images/i2.png")
-img_3 = Image.open("portfolio-template-LLM/images/i3.png")
-img_4 = Image.open("portfolio-template-LLM/images/i4.png")
-img_5 = Image.open("portfolio-template-LLM/images/i5.png")
+img_1 = Image.open("images/i1.png")
+img_2 = Image.open("images/i2.png")
+img_3 = Image.open("images/i3.png")
+img_4 = Image.open("images/i4.png")
+img_5 = Image.open("images/i5.png")
 
 st.title("Internships")
 

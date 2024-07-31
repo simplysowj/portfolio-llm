@@ -130,10 +130,8 @@ def get_qa_answer(query):
     try:
         result = qa_chain({"query": query, "prompt": prompt})
         
-        # Debugging output
-        st.write("Debug Info:", result)
+        if result.get("result") == "I don't know.":
 
-        if not result.get("result"):
             result["result"] = f"Unfortunately, I couldn't find specific information on that topic. For more details or further assistance, please feel free to contact {name} directly at [simplysowj@gmai.com](mailto:simplysowj@gmai.com)."
         
     except Exception as e:

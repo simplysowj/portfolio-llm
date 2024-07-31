@@ -14,7 +14,7 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
     
-local_css(r"C:\Users\simpl\Downloads\test\style\style.css")
+local_css("style/style.css")
 
 # Technical Skills Section
 st.subheader("🛠 Technical Skills")

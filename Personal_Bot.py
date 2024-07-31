@@ -75,7 +75,7 @@ api_key = st.sidebar.text_input('Enter your OpenAI API Key and hit Enter', type=
 #api_key = st.text_input("Enter your OpenAI API Key", type="password")
 
 # Define the path to your local PDF file
-pdf_file_path = r"C:\Users\simpl\Downloads\test\Sowjanya_AI.pdf"  
+pdf_file_path = "images/Sowjanya_AI.pdf"  
 
 # Text input for the question
 question = st.text_input("Enter your question about the resume:")

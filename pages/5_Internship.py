@@ -7,7 +7,7 @@ def local_css(file_name):
         st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
         
 
-local_css(r"C:\Users\simpl\Downloads\test\style\style.css")
+local_css("style/style.css")
 
 
 

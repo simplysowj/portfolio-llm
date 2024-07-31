@@ -1,14 +1,5 @@
 import streamlit as st
-from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
-from langchain_core.prompts import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate
-from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_core.output_parsers import StrOutputParser
-from langchain_community.document_loaders import WebBaseLoader, PyPDFLoader
-from langchain_text_splitters import NLTKTextSplitter
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
-from langchain_community.vectorstores import Chroma
-from langchain_core.runnables import RunnablePassthrough
-from IPython.display import Markdown as md
+
 
 def local_css(file_name):
     with open(file_name) as f:

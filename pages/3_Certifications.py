@@ -10,13 +10,13 @@ local_css("style/style.css")
 
 
 
-img_4 = Image.open(r"C:\Users\simpl\Downloads\test\images\4.png")
-img_5 = Image.open(r"C:\Users\simpl\Downloads\test\images\5.png")
-img_6 = Image.open(r"C:\Users\simpl\Downloads\test\images\6.png")
-img_7 = Image.open(r"C:\Users\simpl\Downloads\test\images\7.png")
-img_8 = Image.open(r"C:\Users\simpl\Downloads\test\images\8.png")
-img_9 = Image.open(r"C:\Users\simpl\Downloads\test\images\9.png")
-img_10 = Image.open(r"C:\Users\simpl\Downloads\test\images\nlp.png")
+img_4 = Image.open("images/4.png")
+img_5 = Image.open("images/5.png")
+img_6 = Image.open("images/6.png")
+img_7 = Image.open("images/7.png")
+img_8 = Image.open("images/8.png")
+img_9 = Image.open("images/9.png")
+img_10 = Image.open("images/nlp.png")
 
 st.title("🫶 Certifications")
 

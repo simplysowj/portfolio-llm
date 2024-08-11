@@ -17,6 +17,7 @@ img_7 = Image.open("images/7.png")
 img_8 = Image.open("images/8.png")
 img_9 = Image.open("images/9.png")
 img_10 = Image.open("images/nlp.png")
+img_11=Image.open("images/marks.png")
 
 st.title("🫶 Certifications")
 
@@ -32,3 +33,5 @@ st.image(img_7)
 st.image(img_8)
 st.image(img_9)
 st.image(img_10)
+st.image(img_11)
+

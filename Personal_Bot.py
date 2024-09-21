@@ -151,7 +151,7 @@ if st.button("Run"):
 
         
     else:
-        st.error("Please provide all required inputs.")
+        st.error("Please provide APi key then enter the question.")
 with st.container():
     col1,col2 = st.columns([8,3])
    

@@ -3,17 +3,17 @@
 chromadb
 pysqlite3-binary
 
-langchain==0.2.11
+langchain
 langchain-community
 
 protobuf==3.20.*
 
 
-openai==1.37.1
+openai
 
 
 
-pypdf==4.3.1
+pypdf
 
 
 

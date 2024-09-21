@@ -4,7 +4,8 @@ sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import streamlit as st
 import os
 from langchain.chains import RetrievalQA
-from langchain.llms import OpenAI
+
+from langchain_community.llms import OpenAI
 
 from langchain.text_splitter import CharacterTextSplitter
 

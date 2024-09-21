@@ -71,7 +71,8 @@ st.markdown(horizontal_navbar(navbar_links), unsafe_allow_html=True)
 st.title("Resume Q&A Chatbot")
 st.markdown("## How to use\n"
             "1. Enter your [OpenAI API key](https://platform.openai.com/account/api-keys) in the sidebar and hit enter🔑\n"  # noqa: E501
-        )
+            "2.If you dont have api key please click this link https://www.guvi.in/rag/d0dfa9d5-3d3f-4e7d-a5e9-dbf8e3c5f4bd "
+           )
 
 api_key = st.sidebar.text_input('Enter your OpenAI API Key and hit Enter', type="password")
 # Input fields for the OpenAI API key

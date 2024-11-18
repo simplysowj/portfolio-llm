@@ -3,22 +3,18 @@
 chromadb
 pysqlite3-binary
 
-langchain
-langchain-community
+
 
 protobuf==3.20.*
 
-
-openai
-
-
-
+openai==1.30.3
+langchain==0.2.1
+langchain-community==0.2.1
+tiktoken
+pandas
+faiss-cpu==1.8.0
+pymongo==4.6.2
 pypdf
-
-
-
-streamlit==1.37.0
-
-tiktoken==0.7.0
+streamlit
 
 

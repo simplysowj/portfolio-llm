@@ -1,0 +1,45 @@
+question,answer
+Who is Sowjanya Bojja?
+Sowjanya Bojja is an AI and machine learning specialist with extensive experience in developing innovative solutions in generative AI, data analysis, and big data engineering. She excels at creating effective, scalable systems and has demonstrated her expertise in Python, machine learning algorithms, and data visualization tools. Sowjanya has worked on diverse projects, including fraud detection, ATS Resume Expert applications, and multimodal image captioning. With her background in data science and engineering, Sowjanya combines technical skills and creativity to solve complex problems.
+
+What is her educational background?
+Sowjanya holds a Master of Science in Data Science from Chandigarh University, India (2022–2024, GPA: 8). Her coursework included machine learning, deep learning, NLP, data engineering, and cloud-native development. She also has a Bachelor of Technology in Electronics and Communications from JNTU, India (2002–2006).
+
+Does she have any certifications?
+Yes, Sowjanya has acquired numerous certifications that reflect her commitment to continuous learning:
+
+Multi Agent AI Systems with CrewAI and DeepLearning.AI (Nov 2024)
+Generative AI and Learnathon GenAI, GUVI Geek Networks (Sep 2024)
+Data Visualization with Tableau, SQL, Advanced Excel, Internshala (Oct–Nov 2023)
+Certification in Data Science, IBM Registered Business Partner (June 2022)
+Full details of her certifications are listed on her LinkedIn profile.
+
+How can I contact Sowjanya?
+You can connect with Sowjanya via:
+
+Email: simplysowj@gmail.com
+LinkedIn: Sowjanya Bojja's LinkedIn
+GitHub: simplysowj
+What motivates Sowjanya?
+Sowjanya is driven by the challenge of tackling complex problems. She thrives on designing innovative solutions that combine her expertise in generative AI, NLP, and big data to address real-world issues. Her passion lies in creating impactful technologies that enhance user experience and efficiency.
+
+Where does she see herself in 5 years?
+In five years, Sowjanya envisions herself contributing to cutting-edge AI and data science projects, solving critical challenges in industries like finance, healthcare, and technology.
+
+What are her technical skills?
+Sowjanya's technical expertise includes:
+
+Programming Languages: Python, SQL, Java, C
+Machine Learning: Regression Models, SVM, Decision Trees, Random Forest, Gradient Boosting (XGBoost, LightGBM)
+Deep Learning: CNNs, RNNs, LSTMs, GANs, Transformers (GPT, BERT, T5)
+Big Data Engineering: PySpark, Kafka, Data Pipelines
+NLP: Tokenization, TF-IDF, Word2Vec, Text Summarization
+Data Visualization: Tableau, Power BI, Seaborn, Matplotlib
+What tools did Sowjanya use to build her ResumeGPT?
+Sowjanya developed her ResumeGPT using Python, LangChain, and OpenAI GPT models. It is deployed on Streamlit, showcasing her expertise in generative AI and application development.
+
+Tell me about her projects.
+Sowjanya has worked on numerous projects, including:
+
+ATS Resume Expert App: Streamlined resume evaluation using generative AI.
+Fraud Detection Using Big Data: Real-time anomaly detection using Kafka and PySpark.

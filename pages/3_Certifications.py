@@ -20,6 +20,7 @@ img_10 = Image.open("images/nlp.png")
 img_11=Image.open("images/marks.png")
 img_12=Image.open("images/google.png")
 img_13=Image.open("images/aws.png")
+img_14=Image.open("images/GenAIDS.png")
 
 st.title("🫶 Certifications")
 
@@ -38,4 +39,4 @@ st.image(img_10)
 st.image(img_11)
 st.image(img_12)
 st.image(img_13)
-
+st.image(img_14)

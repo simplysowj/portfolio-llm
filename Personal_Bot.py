@@ -151,7 +151,7 @@ faiss_index = path+"/faiss_index"
 data_source = os.path.join(path, "data", "about_me.csv")
 
 
-pdf_source = os.path.join(path, "data", "resume.pdf")
+pdf_source = os.path.join(path, "data", "AI Ml Sowjanya.pdf")
 
 # Function to store conversation
 def store_conversation(conversation_id, user_message, bot_message, answered):

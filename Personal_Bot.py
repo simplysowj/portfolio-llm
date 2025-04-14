@@ -140,7 +140,7 @@ path = os.path.dirname(__file__)
 
 
 # Loading prompt to query openai
-prompt_template = path+"/templates/template.json"
+prompt_template = os.path.join(path, "templates", "template.json")  # More robust path handling
 prompt = load_prompt(prompt_template)
 #prompt = template.format(input_parameter=user_input)
 

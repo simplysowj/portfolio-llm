@@ -14,24 +14,18 @@ def display_projects():
     projects = [
 
         {
-          "title": " Location Finder (with Generative AI)"
-            "duration":  "Ongoing",
-"description":"""
-Tech Stack: Python, Django, React, PostgreSQL, TensorFlow, OpenCV, Geopy, Generative AI, REST API, JWT Authentication
-Developed a Full-Stack AI-Powered Location Finder
-Generative AI Integration: Integrated Generative AI (LLMs) to provide contextual insights based on images uploaded by users, leveraging AI models to generate descriptions, historical context, and relevant facts related to the image and its location, enhancing user interaction and experience.
-GPS Metadata Extraction & Reverse Geocoding: Implemented a system for extracting GPS metadata from images using Exif (Exchangeable Image File Format) data. Employed Geopy for reverse geocoding, converting GPS coordinates into readable location data (such as cities or landmarks), providing automatic location detection.
-Deep Learning-Based Image Similarity: Built a deep learning model using ResNet50 to compare images based on visual similarity. This enables the app to identify images from the same location or with similar visual features by comparing feature vectors extracted through a pre-trained neural network, enhancing searchability.
-Frontend Development with React.js: Developed a React.js frontend with intuitive image upload functionality. Implemented role-based authentication for SuperAdmin and Admin users, ensuring secure access and management. Admins and SuperAdmins have distinct control over platform functionality, enhancing the platform's security and usability.
-Backend Development with Django: Created a robust Django backend to handle image processing, storage, and metadata management. Implemented integration with AWS S3 to store images in the cloud, ensuring scalability and reliability. Used PostgreSQL for metadata storage, enabling fast retrieval of image-related location information.
-Google Cloud Vision API Integration: Integrated Google Cloud Vision API to analyze uploaded images and automatically extract key location data (such as identifying landmarks or text within the image). This added intelligence to the system, enabling automated location identification and contextually relevant insights.
-Distance Calculation & Data Visualization: Designed and implemented distance calculation algorithms to determine the distance between target locations based on image metadata. Developed interactive dashboards to visualize the distance between locations, providing users with a geographical overview of the images they upload, adding a layer of interactivity.
-OpenAI Integration for Contextual Interaction: Incorporated OpenAI’s GPT models to create an intelligent chatbot interface, allowing users to query the application for additional insights about uploaded images or locations. The AI responds with contextually relevant information, enriching the user experience with conversational features.
-Azure Cloud Deployment: Optimized the deployment of the entire solution using Azure Cloud for scalable AI services. Leveraged Azure App Services and Azure Functions for serverless computing, ensuring the system could scale efficiently to handle increasing traffic and processing demands. This allowed for seamless image processing and fast response times even under heavy load.
-Outcome: Automated geolocation-based image analysis, improving accuracy and efficiency in location identification and similarity detection.
-
-""",
-"Live Project link":"https://salmon-rock-0b662ee0f.6.azurestaticapps.net/" 
+         "title": "AI Intern, Mentorness --Generative AI",
+            "duration": "Feb 2024 - Mar 2024",
+            "description": """
+            Developed a dynamic ATS Resume Expert application using Gemini-pro-vision during my internship with Mentorness. 
+            Utilizing OpenAI's Generative AI capabilities, it analyzes PDF resumes against job descriptions, offering evaluations on alignment, 
+            missing keywords, and candidate suitability. This Streamlit app showcases a versatile portfolio template integrating features like 
+            resume parsing, an AI chatbot powered by OpenAI, and interactive elements for comprehensive personal branding, demonstrating 
+            proficiency in leveraging diverse technologies for impactful web experiences.
+            """,
+            "github_link": "https://github.com/simplysowj/Mentorness",
+            "video_link": "https://www.linkedin.com/posts/sowjanya-bojja_atsresume-streamlit-resumeparser-activity-7173455333477064704-WaeO?utm_source=share&utm_medium=member_desktop"  
+ 
 
         },
         {

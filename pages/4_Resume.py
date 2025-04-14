@@ -12,7 +12,7 @@ def local_css(file_name):
 
 st.title("📝 Resume")
 
-pdf_path = "images/sowjanya_genai resume (1).pdf"
+pdf_path = "images/AI Ml Sowjanya.pdf"
 
 # Provide a download button for the PDF
 with open(pdf_path, "rb") as pdf_file:

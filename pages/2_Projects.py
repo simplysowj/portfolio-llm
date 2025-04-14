@@ -30,9 +30,8 @@ OpenAI Integration for Contextual Interaction: Incorporated OpenAI’s GPT model
 Azure Cloud Deployment: Optimized the deployment of the entire solution using Azure Cloud for scalable AI services. Leveraged Azure App Services and Azure Functions for serverless computing, ensuring the system could scale efficiently to handle increasing traffic and processing demands. This allowed for seamless image processing and fast response times even under heavy load.
 
             """,
-            "github_link": "https://github.com/simplysowj/Mentorness",
-            "video_link": "https://www.linkedin.com/posts/sowjanya-bojja_atsresume-streamlit-resumeparser-activity-7173455333477064704-WaeO?utm_source=share&utm_medium=member_desktop"  
- 
+            "github_link": " https://salmon-rock-0b662ee0f.6.azurestaticapps.net/",
+            "video_link": " https://salmon-rock-0b662ee0f.6.azurestaticapps.net/"
 
         },
         {

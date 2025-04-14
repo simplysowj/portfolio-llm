@@ -148,7 +148,8 @@ prompt = load_prompt(prompt_template)
 faiss_index = path+"/faiss_index"
 
 # Loading CSV file
-data_source = path+"/data/about_me.csv"
+data_source = os.path.join(path, "data", "about_me.csv")
+
 
 pdf_source = os.path.join(path, "data", "resume.pdf")
 

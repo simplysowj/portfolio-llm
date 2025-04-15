@@ -85,7 +85,7 @@ def horizontal_navbar(links):
 # Define links for the navbar
 navbar_links = [
     {"label": "Medium Article", "url": "https://medium.com/@simplysowj"},
-    {"label": "Sample Project","url":"https://blippy-souji.streamlit.app/"},
+    {"label": "Sample Project","url":"https://salmon-rock-0b662ee0f.6.azurestaticapps.net/"},
     {"label": "LinkedIn", "url": "https://www.linkedin.com/in/sowjanya-bojja/"},
     {"label": "GitHub", "url": "https://github.com/simplysowj"},
    

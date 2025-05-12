@@ -118,18 +118,50 @@ def is_valid_json(data):
 #db = client['conversations_db']
 #conversations_collection = db['conversations']
 
-if "OPENAI_API_KEY" in os.environ:
-    openai_api_key = os.getenv("OPENAI_API_KEY")
-else: openai_api_key = st.secrets["openai"]["OPENAI_API_KEY"]
+st.markdown("""
+### How to get an OpenAI API Key
 
+To use this chatbot, you'll need an OpenAI API key. Here's how to get one:
+
+1. **Go to [OpenAI Platform](https://platform.openai.com/)**
+   - Sign up or log in to your account
+
+2. **Access API Keys**
+   - Click your profile icon (top-right)
+   - Select "View API keys"
+
+3. **Create New Key**
+   - Click "Create new secret key"
+   - Name it (e.g., "ResumeGPT")
+   - Copy the key (it starts with `sk-` and won't be shown again!)
+
+4. **Enter it below** ⬇️
+   - Paste in the sidebar input box
+   - The app will verify it automatically
+
+⚠️ **Important Notes:**
+- Keys are sensitive - don't share them!
+- Free tier has usage limits
+- You may need to add payment method for continued use
+""")
+# Get OpenAI API key from user
+openai_api_key = st.sidebar.text_input("Enter your OpenAI API key:", type="password")
 
 if not openai_api_key:
-    st.error("OpenAI API key is missing. Please provide it in Streamlit secrets or input it manually.")
-# Check if the API key is successfully retrieved
-if openai_api_key:
-    st.success("OpenAI API key successfully loaded!")
-else:
-    st.error("Unable to load OpenAI API key. Please provide it.")
+    st.warning("Please enter your OpenAI API key in the sidebar to continue.")
+    st.stop()
+
+# Check if the API key is valid by trying to create embeddings
+try:
+    test_embeddings = OpenAIEmbeddings(openai_api_key=openai_api_key)
+    test_embeddings.embed_query("test")
+    st.sidebar.success("API key is valid!")
+except Exception as e:
+    st.sidebar.error(f"Invalid API key. Error: {str(e)}")
+    st.stop()
+    
+
+
 
 #Creating Streamlit title and adding additional information about the bot
 st.title("Sowjanya's resumeGPT")
